@@ -8,7 +8,7 @@ Simple Bash Script for mass checking email already registered on instagram or no
 - I don't know.
 
 ## Screenshot
-![screenshot](https://assets.codelatte.net/instagramer-screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Fay48/Instagram-Email-Exist-Checker/main/Screen%20Shot%202021-07-19%20at%2022.00.11.png)
 
 ## Installation
 - `sudo apt install jq / brew install jq / sudo yum install jq`
