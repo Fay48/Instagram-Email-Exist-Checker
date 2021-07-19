@@ -1,1 +1,21 @@
-# Instagram-Email-Exist-Checker
+# Instagram Email Exist Checker
+[![star this repo](http://githubbadges.com/star.svg?user=boennemann&repo=badges&style=flat)](https://github.com/boennemann/badges) [![fork this repo](http://githubbadges.com/fork.svg?user=boennemann&repo=badges&style=flat)](https://github.com/boennemann/badges/fork)
+
+Simple Bash Script for mass checking email already registered on instagram or not.
+
+## Features
+
+- I don't know.
+
+## Screenshot
+![screenshot](https://assets.codelatte.net/instagramer-screenshot.png)
+
+## Installation
+- `sudo apt install jq / brew install jq / sudo yum install jq`
+- `git clone https://github.com/Fay48/Instagram-Email-Exist-Checker/`
+- `cd Instagram-Email-Exist-Checker`
+- `chmod +x exist.sh`
+- `./exist.sh`
+
+## Contributor
+- [Akbar a.k.a Abay](https://codelatte.net)
