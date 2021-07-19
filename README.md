@@ -1,5 +1,4 @@
 # Instagram Email Exist Checker
-[![star this repo](http://githubbadges.com/star.svg?user=boennemann&repo=badges&style=flat)](https://github.com/boennemann/badges) [![fork this repo](http://githubbadges.com/fork.svg?user=boennemann&repo=badges&style=flat)](https://github.com/boennemann/badges/fork)
 
 Simple Bash Script for mass checking email already registered on instagram or not.
 
