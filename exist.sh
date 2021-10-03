@@ -8,7 +8,7 @@ if [[ ! -f $(eval find $lst) ]]; then
 fi
 checker(){
 	em=$1
-	csrf=$(curl -sI https://www.instagram.com/accounts/emailsignup/ | ggrep -Po '(?<=\mid=)(.*?)(?=\;)')
+	csrf=$(curl -sI https://www.instagram.com/accounts/emailsignup/ | grep -Po '(?<=\mid=)(.*?)(?=\;)')
 	check=$(curl -s "https://www.instagram.com/accounts/web_create_ajax/attempt/" -d "email=$em&username=&first_name=&opt_into_one_tap=false" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36" -H "X-Csrftoken: $csrf" | jq -r '.errors.email[].message' 2>/dev/null)
 	if [[ -z $check ]]; then
 		echo -e "$em => Not Exist!"
